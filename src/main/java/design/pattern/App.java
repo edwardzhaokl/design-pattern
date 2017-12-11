@@ -1,4 +1,4 @@
-package edward.zhao.design.pattern;
+package design.pattern;
 
 /**
  * Hello world!

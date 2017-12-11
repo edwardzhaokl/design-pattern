@@ -1,4 +1,4 @@
-package edward.zhao.design.pattern;
+package design.pattern;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
