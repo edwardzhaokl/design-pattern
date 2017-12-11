@@ -9,4 +9,11 @@ package design.pattern.classcreationpattern.factorymethod;
  */
 public class Client {
 
+    public static void main(String[] args) {
+
+        Factory factory = new ConcreteFactory();
+
+        //Product product = factory.
+    }
+
 }

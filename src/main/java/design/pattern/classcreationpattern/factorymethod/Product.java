@@ -7,6 +7,6 @@ package design.pattern.classcreationpattern.factorymethod;
  * <p>
  * desc:
  */
-public class Product {
+public interface Product {
 
 }

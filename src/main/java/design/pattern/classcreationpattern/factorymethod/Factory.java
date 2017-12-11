@@ -1,4 +1,4 @@
-package design.pattern.classcreationpattern.simplefactory;
+package design.pattern.classcreationpattern.factorymethod;
 
 /**
  * author: zhaokl
@@ -7,6 +7,11 @@ package design.pattern.classcreationpattern.simplefactory;
  * <p>
  * desc:
  */
-public class Factory {
+public abstract class Factory {
 
+    static Product factoryMethod() {
+		System.out.println("interface factory");
+
+        return null;
+    }
 }

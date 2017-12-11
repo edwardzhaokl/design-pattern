@@ -1,12 +1,25 @@
 package design.pattern.classcreationpattern.factorymethod;
 
+import lombok.extern.slf4j.Slf4j;
+
 /**
- * author: zhaokl
+ * @author zhaokl
  * <p>
  * created at: 08/12/2017 14:36
  * <p>
  * desc:
  */
-public class ConcreteFactory {
+@Slf4j
+public class ConcreteFactory extends Factory {
 
+	private final void test(){}
+
+    // @Override
+    public static Product factoryMethod() {
+        log.info("create concrete product 1");
+
+        return new ConcreteProduct1();
+
+
+    }
 }

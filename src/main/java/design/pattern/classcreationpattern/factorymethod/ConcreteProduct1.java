@@ -1,5 +1,7 @@
 package design.pattern.classcreationpattern.factorymethod;
 
+import lombok.Data;
+
 /**
  * author: zhaokl
  * <p>
@@ -7,6 +9,10 @@ package design.pattern.classcreationpattern.factorymethod;
  * <p>
  * desc:
  */
-public class ConcreteProduct1 {
+@Data
+public class ConcreteProduct1 implements Product {
+
+
+    private String s;
 
 }
