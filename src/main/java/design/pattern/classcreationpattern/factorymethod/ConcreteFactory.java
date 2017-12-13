@@ -18,8 +18,8 @@ public class ConcreteFactory extends Factory {
     public static Product factoryMethod() {
         log.info("create concrete product 1");
 
-        return new ConcreteProduct1();
+        //return new ConcreteProduct1();
 
-
+        return null;
     }
 }

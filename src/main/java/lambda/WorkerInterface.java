@@ -8,6 +8,8 @@ package lambda;
  * @Description: TODO
  * @date ${date} ${time}
  */
+@FunctionalInterface
 public interface WorkerInterface{
 
+	public abstract void doSomeWork();
 }

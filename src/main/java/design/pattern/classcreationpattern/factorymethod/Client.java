@@ -1,5 +1,11 @@
 package design.pattern.classcreationpattern.factorymethod;
 
+import lombok.extern.slf4j.Slf4j;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.function.Consumer;
+
 /**
  * author: zhaokl
  * <p>
@@ -7,13 +13,36 @@ package design.pattern.classcreationpattern.factorymethod;
  * <p>
  * desc:
  */
+@Slf4j
 public class Client {
 
     public static void main(String[] args) {
 
-        Factory factory = new ConcreteFactory();
+        //Factory factory = new ConcreteFactory();
 
-        //Product product = factory.
+	    Map<String, Object> map = new HashMap<>();
+
+	    map.put("1", "one");
+	    map.put("2", "two");
+
+	    log.info(map.entrySet().toString());
+
+
+	    log.info("get " + map.get("3"));
+
+	    log.info("getOrDefault " + map.getOrDefault("3", "three"));
+
+		Runnable r = () -> System.out.println("hello world");
+
+		r.run();
+
+		new Thread(() ->
+			System.out.println("hello world")
+		).start();
+
+
+	    Consumer<Integer> c = System.out::println;
+
     }
 
 }
