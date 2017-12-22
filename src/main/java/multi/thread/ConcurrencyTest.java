@@ -11,13 +11,36 @@ import lombok.extern.slf4j.Slf4j;
  * @date ${date} ${time}
  */
 @Slf4j
-public class ConcurrencyTest {
+public class ConcurrencyTest implements Runnable{
 
     static final long count = 100000000L;
 
     public static void main(String[] args) throws InterruptedException {
-        concurrency();
-        serial();
+        //concurrency();
+        //serial();
+
+
+        Runnable r = new ConcurrencyTest();
+
+        Thread t = new Thread(r);
+        Thread t1 = new Thread(r);
+
+        t.start();
+        //t.join();
+
+        t1.start();
+        t1.join();
+
+        log.info("a = {}", a);
+    }
+
+    static int a = 0;
+
+    @Override
+    public void run() {
+        for (int i = 0; i < 5; ++i) {
+            log.info("a = {}", ++a);
+        }
     }
 
 
