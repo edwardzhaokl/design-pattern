@@ -41,8 +41,11 @@ class DemoRunnable implements Runnable {
     @Override
     public void run() {
         while (true) {
-            if (ticket > 0) {
-                log.info(Thread.currentThread().getName() + "--售票: " + ticket--);
+
+            synchronized (this) {
+                if (ticket > 0) {
+                    log.info(Thread.currentThread().getName() + " --售票: " + ticket--);
+                }
             }
         }
     }
