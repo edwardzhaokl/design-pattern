@@ -1,4 +1,4 @@
-package design.pattern.classcreationpattern.factorymethod;
+package design.pattern.creational.factorymethodpattern;
 
 import lombok.extern.slf4j.Slf4j;
 
