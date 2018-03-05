@@ -12,10 +12,10 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class Parent {
 
-    static Integer staticFieldInClassA;
+    static Integer staticFieldInParent = 1;
 
-    public static void staticMethodInClassA(Integer i) {
-        log.info("A::staticMethodInClassA::parameters:{ " + "i = [" + i + "]" + "}");
+    public static void staticMethodInParent() {
+        log.info("Parent::staticMethodInParent::parameters:{ " + "i = [" + staticFieldInParent + "]" + "}");
     }
 
 }

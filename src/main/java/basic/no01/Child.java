@@ -1,5 +1,7 @@
 package basic.no01;
 
+import lombok.extern.slf4j.Slf4j;
+
 /**
  * project: design-pattern
  * author: zhaokl
@@ -8,7 +10,16 @@ package basic.no01;
  * <p>
  **/
 
-public class Child {
+@Slf4j
+public class Child extends Parent {
 
-    p
+    public void testStaticMethodInParent() {
+
+    }
+
+
+    public static void main(String[] args) {
+
+        Child.staticMethodInParent();
+    }
 }
