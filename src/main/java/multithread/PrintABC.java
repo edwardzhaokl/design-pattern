@@ -1,4 +1,4 @@
-package multi.thread;
+package multithread;
 
 import lombok.extern.slf4j.Slf4j;
 

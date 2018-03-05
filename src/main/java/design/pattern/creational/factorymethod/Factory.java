@@ -1,4 +1,4 @@
-package design.pattern.creational.factorymethodpattern;
+package design.pattern.creational.factorymethod;
 
 /**
  * author: zhaokl
