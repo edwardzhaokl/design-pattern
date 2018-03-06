@@ -1,6 +1,6 @@
 # 类之间的关系
 
-![](images/2cf46b1d.png)
+![](../../images/class%20diagram.png)
 
 
 # principle of Object Oriented Design 3-2-1-1

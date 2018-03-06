@@ -1,4 +1,6 @@
-package design.pattern.creational.simplefactory;
+package design.pattern.creational.simplefactory.demo;
+
+import lombok.extern.slf4j.Slf4j;
 
 /**
  * project: design-pattern
@@ -8,6 +10,7 @@ package design.pattern.creational.simplefactory;
  * <p>
  **/
 
+@Slf4j
 public class Factory {
 
     public static Product getProduct(String type) {
@@ -21,6 +24,15 @@ public class Factory {
             // 初始化 product
         }
 
-        return null;
+        if (null != product) {
+            return product;
+        }
+
+        return new Product() {
+            @Override
+            public void diffMethod() {
+                log.info("Factory::diffMethod::parameters:{ " + "" + "}");
+            }
+        };
     }
 }

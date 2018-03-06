@@ -1,5 +1,7 @@
 package design.pattern.creational.simplefactory.demo;
 
+import lombok.extern.slf4j.Slf4j;
+
 /**
  * project: design-pattern
  * author: zhaokl
@@ -8,7 +10,15 @@ package design.pattern.creational.simplefactory.demo;
  * <p>
  **/
 
+@Slf4j
 public class Client {
 
-    p
+    public static void main(String[] args) {
+        Product product;
+        // 通过工厂类创建产品对象
+        product = Factory.getProduct("a");
+
+        product.sameMethod();
+        product.diffMethod();
+    }
 }
