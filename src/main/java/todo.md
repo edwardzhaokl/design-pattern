@@ -6,5 +6,9 @@ https://www.jianshu.com/p/b1259f641d09
 
 2. 类加载机制  
 how? 
+去看 -> JVM
 
 3. java 资源文件路径 once for all
+
+
+4. system.in.read()

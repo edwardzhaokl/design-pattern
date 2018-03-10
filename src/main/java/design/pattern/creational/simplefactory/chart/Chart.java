@@ -1,4 +1,4 @@
-package design.pattern.creational.simplefactory.app;
+package design.pattern.creational.simplefactory.chart;
 
 /**
  * project: design-pattern

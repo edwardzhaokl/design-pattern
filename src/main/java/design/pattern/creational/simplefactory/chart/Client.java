@@ -1,6 +1,7 @@
-package design.pattern.creational.simplefactory.app;
+package design.pattern.creational.simplefactory.chart;
 
 import lombok.extern.slf4j.Slf4j;
+import org.junit.jupiter.api.Test;
 
 /**
  * project: design-pattern
@@ -13,7 +14,19 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class Client {
 
-    public static void main(String[] args) {
+    @Test
+    public void client1() {
+
+        Chart chart;
+
+        chart = Factory.getChart("pie");
+
+        chart.display();
+    }
+
+
+    @Test
+    public void client2() {
 
         Chart chart;
 

@@ -1,4 +1,4 @@
-package design.pattern.creational.simplefactory.app;
+package design.pattern.creational.simplefactory.chart;
 
 import lombok.extern.slf4j.Slf4j;
 import org.w3c.dom.Document;
@@ -26,7 +26,7 @@ public class XMLUtils {
 
         try {
             DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
-            Document document = documentBuilder.parse(new File("/Users/edward/IdeaProjects/design-pattern/src/main/java/design/pattern/creational/simplefactory/app/config.xml"));
+            Document document = documentBuilder.parse(new File("/Users/edward/IdeaProjects/design-pattern/src/main/java/design/pattern/creational/simplefactory/chart/config.xml"));
 
             String charType = document.getElementsByTagName("chartType").item(0).getFirstChild().getNodeValue();
 
