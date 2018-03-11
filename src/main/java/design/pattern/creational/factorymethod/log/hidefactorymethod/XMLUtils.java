@@ -1,4 +1,4 @@
-package design.pattern.creational.factorymethod.log;
+package design.pattern.creational.factorymethod.log.hidefactorymethod;
 
 import lombok.extern.slf4j.Slf4j;
 import org.w3c.dom.Document;
@@ -11,8 +11,8 @@ import java.io.File;
 /**
  * project: design-pattern
  * author: zhaokl
- * createdTime: 2018-03-11 21:24:58
- * desc: 解析 xml 工具类
+ * createdTime: 2018-03-11 23:08:14
+ * desc:
  * <p>
  **/
 
@@ -22,8 +22,7 @@ public class XMLUtils {
     public static Object getBean() {
 
         File file = new File(
-            "/Users/edward/IdeaProjects/design-pattern/src/main/java/design/pattern/creational/factorymethod/log"
-            + "/hidefactorymethod/config.xml");
+            "/Users/edward/IdeaProjects/design-pattern/src/main/java/design/pattern/creational/factorymethod/log/config.xml");
 
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         try {

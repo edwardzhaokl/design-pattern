@@ -15,7 +15,7 @@ public class DatabaseLoggerFactory implements LoggerFactory {
 
     @Override
     public Logger createLogger() {
-        log.info("DatabaseLoggerFactory::createDatabaseLogger::parameters:{ " + "" + "}");
+        log.info("FileLoggerFactory::createDatabaseLogger::parameters:{ " + "" + "}");
 
         return new DatabaseLogger();
     }
