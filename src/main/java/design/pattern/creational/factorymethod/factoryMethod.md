@@ -1,4 +1,7 @@
-## 工厂方法模式 factory method pattern
+## 工厂方法模式 - factory method pattern
+学习难度：★★☆☆☆  
+使用频率：★★★★★
+
 
 #### 写在前面: 
 属于 - `类创建型模式`: 将对象的部分创建工作延迟到子类.  
