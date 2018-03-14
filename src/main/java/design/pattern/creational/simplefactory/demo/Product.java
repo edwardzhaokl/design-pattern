@@ -15,7 +15,7 @@ public abstract class Product {
 
     // 所有产品的公共方法
     public void sameMethod() {
-        log.info("Product::sameMethod::parameters:{ " + "" + "}");
+        log.info("ProductA::sameMethod::parameters:{ " + "" + "}");
     }
 
     // 声明抽象业务方法

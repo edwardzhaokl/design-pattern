@@ -15,6 +15,6 @@ public class ConcreteProductA extends Product {
 
     @Override
     public void diffMethod() {
-        log.info("ConcreteProductA::diffMethod::parameters:{ " + "" + "}");
+        log.info("ConcreteProductA1::diffMethod::parameters:{ " + "" + "}");
     }
 }

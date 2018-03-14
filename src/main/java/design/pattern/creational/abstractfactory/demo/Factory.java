@@ -10,8 +10,8 @@ package design.pattern.creational.abstractfactory.demo;
 
 public abstract class Factory {
 
-    abstract Product createProductA();
+    abstract ProductA createProductA();
 
-    abstract Product createProductB();
+    abstract ProductB createProductB();
 
 }

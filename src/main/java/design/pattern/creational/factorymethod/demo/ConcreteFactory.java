@@ -15,7 +15,7 @@ public class ConcreteFactory extends Factory {
 
     @Override
     public Product factoryMethod() {
-        log.info("ConcreteFactory::factoryMethod::parameters:{ " + "" + "}");
+        log.info("ConcreteFactory2::factoryMethod::parameters:{ " + "" + "}");
         return new ConcreteProduct();
     }
 
