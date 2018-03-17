@@ -1,4 +1,4 @@
-package design.pattern.creational.singleton.singleton.loadbalancer;
+package designpattern.creational.singleton.singleton.loadbalancer;
 
 import lombok.extern.slf4j.Slf4j;
 

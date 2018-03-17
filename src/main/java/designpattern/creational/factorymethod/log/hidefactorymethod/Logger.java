@@ -1,4 +1,4 @@
-package design.pattern.creational.factorymethod.log.hidefactorymethod;
+package designpattern.creational.factorymethod.log.hidefactorymethod;
 
 /**
  * project: design-pattern

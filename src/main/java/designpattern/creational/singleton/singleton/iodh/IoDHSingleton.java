@@ -1,4 +1,4 @@
-package design.pattern.creational.singleton.singleton.iodh;
+package designpattern.creational.singleton.singleton.iodh;
 
 /**
  * project: design-pattern

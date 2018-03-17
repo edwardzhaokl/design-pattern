@@ -1,4 +1,4 @@
-package design.pattern.creational.abstractfactory.demo;
+package designpattern.creational.abstractfactory.demo;
 
 import org.junit.jupiter.api.Test;
 

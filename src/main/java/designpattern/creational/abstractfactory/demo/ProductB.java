@@ -1,4 +1,4 @@
-package design.pattern.creational.abstractfactory.demo;
+package designpattern.creational.abstractfactory.demo;
 
 /**
  * project: design-pattern

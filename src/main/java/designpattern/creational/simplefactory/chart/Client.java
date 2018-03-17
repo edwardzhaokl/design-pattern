@@ -1,4 +1,4 @@
-package design.pattern.creational.simplefactory.chart;
+package designpattern.creational.simplefactory.chart;
 
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;

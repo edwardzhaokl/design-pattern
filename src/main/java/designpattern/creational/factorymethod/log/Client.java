@@ -1,4 +1,4 @@
-package design.pattern.creational.factorymethod.log;
+package designpattern.creational.factorymethod.log;
 
 import org.junit.jupiter.api.Test;
 

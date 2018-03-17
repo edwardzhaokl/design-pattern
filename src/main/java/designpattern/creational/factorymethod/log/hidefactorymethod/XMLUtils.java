@@ -1,4 +1,4 @@
-package design.pattern.creational.factorymethod.log.hidefactorymethod;
+package designpattern.creational.factorymethod.log.hidefactorymethod;
 
 import lombok.extern.slf4j.Slf4j;
 import org.w3c.dom.Document;

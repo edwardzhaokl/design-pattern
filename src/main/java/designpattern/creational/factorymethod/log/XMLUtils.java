@@ -1,4 +1,4 @@
-package design.pattern.creational.factorymethod.log;
+package designpattern.creational.factorymethod.log;
 
 import lombok.extern.slf4j.Slf4j;
 import org.w3c.dom.Document;

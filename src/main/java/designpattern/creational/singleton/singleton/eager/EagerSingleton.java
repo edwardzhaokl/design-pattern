@@ -1,4 +1,4 @@
-package design.pattern.creational.singleton.singleton.eager;
+package designpattern.creational.singleton.singleton.eager;
 
 /**
  * project: design-pattern

@@ -1,4 +1,4 @@
-package design.pattern.creational.factorymethod.log.hidefactorymethod;
+package designpattern.creational.factorymethod.log.hidefactorymethod;
 
 import design.pattern.creational.factorymethod.log.DatabaseLoggerFactory;
 import design.pattern.creational.factorymethod.log.XMLUtils;

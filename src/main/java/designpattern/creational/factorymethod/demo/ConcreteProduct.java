@@ -1,4 +1,4 @@
-package design.pattern.creational.factorymethod.demo;
+package designpattern.creational.factorymethod.demo;
 
 import lombok.extern.slf4j.Slf4j;
 
