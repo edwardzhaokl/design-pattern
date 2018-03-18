@@ -1,7 +1,6 @@
 package designpattern.creational.factorymethod.log.hidefactorymethod;
 
-import design.pattern.creational.factorymethod.log.DatabaseLoggerFactory;
-import design.pattern.creational.factorymethod.log.XMLUtils;
+import designpattern.creational.factorymethod.log.XMLUtils;
 import org.junit.jupiter.api.Test;
 
 /**

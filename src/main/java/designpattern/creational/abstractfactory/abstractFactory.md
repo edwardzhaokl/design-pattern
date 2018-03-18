@@ -43,4 +43,4 @@ Kit
 
 
 
-![](../../../../images/AbstractFactory.png)
+![](../../../images/AbstractFactory.png)
