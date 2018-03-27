@@ -9,3 +9,4 @@
 3. 抽象工厂 abstract factory
 4. 创建者   builder
 5. 单例     singleton
+6. 原型     prototype  

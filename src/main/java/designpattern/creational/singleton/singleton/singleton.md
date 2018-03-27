@@ -41,8 +41,10 @@
 7. 可以扩展为多例模式  
 
 8. Java 中的 Singleton参考文章:  
-https://ddatsh.com/post/dev/java/java-singleton/
+https://ddatsh.com/post/dev/java/java-singleton/  
 
+扩展阅读:  
+https://ddatsh.com/post/dev/java/singleton-answer/  
 
 
 讨论:  
