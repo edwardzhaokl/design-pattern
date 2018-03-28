@@ -21,7 +21,7 @@
 
 
 4. 结构  
-![](../../../../../images/singleton.png)  
+![](../../../../images/singleton.png)  
 
 
 5. 分析  
