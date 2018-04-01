@@ -2,7 +2,7 @@ package dp.creational.builder.demo;
 
 /**
  * project: design-pattern
- * class: ConcreteBuilder
+ * clazz: ConcreteBuilder
  * author: zhaokl
  * creationTime: 2018-03-18 14:25:47
  * version: 1.0

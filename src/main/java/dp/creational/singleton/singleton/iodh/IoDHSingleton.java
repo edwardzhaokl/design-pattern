@@ -2,7 +2,7 @@ package dp.creational.singleton.singleton.iodh;
 
 /**
  * project: design-pattern
- * class: IoDHSingleton
+ * clazz: IoDHSingleton
  * author: zhaokl
  * creationTime: 2018-03-18 00:25:52
  * version: 1.0

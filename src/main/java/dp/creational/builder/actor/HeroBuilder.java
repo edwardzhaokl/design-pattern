@@ -2,7 +2,7 @@ package dp.creational.builder.actor;
 
 /**
  * project: design-pattern
- * class: HeroBuilder
+ * clazz: HeroBuilder
  * author: zhaokl
  * creationTime: 2018-03-18 16:21:50
  * version: 1.0

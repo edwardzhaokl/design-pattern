@@ -14,7 +14,7 @@ import java.io.IOException;
  * project: design-pattern
  * author: zhaokl
  * createdTime: 2018-03-06 23:33:52
- * desc: xlm util class
+ * desc: xlm util clazz
  * <p>
  **/
 

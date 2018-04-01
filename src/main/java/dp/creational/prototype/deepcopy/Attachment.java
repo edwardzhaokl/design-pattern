@@ -6,7 +6,7 @@ import java.io.Serializable;
 
 /**
  * project: design-pattern
- * class: Attachment
+ * clazz: Attachment
  * author: zhaokl
  * creationTime: 2018-03-27 22:36:49
  * version: 1.0

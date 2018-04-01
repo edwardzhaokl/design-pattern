@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 /**
  * project: design-pattern
- * class: Client
+ * clazz: Client
  * author: zhaokl
  * creationTime: 2018-03-18 23:25:16
  * version: 1.0

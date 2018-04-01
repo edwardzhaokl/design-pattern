@@ -56,9 +56,9 @@ public class WorkerInterfaceTest{
 
 			@Override
 			public void doSomeWork(){
-				log.info("Worker invoke using anonymous class... ");
+				log.info("Worker invoke using anonymous clazz... ");
 
-				System.out.println("Worker invoke using anonymous class... ");
+				System.out.println("Worker invoke using anonymous clazz... ");
 			}
 		});
 

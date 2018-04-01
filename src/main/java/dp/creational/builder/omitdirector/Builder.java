@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * project: design-pattern
- * class: ActorBuilderV2
+ * clazz: ActorBuilderV2
  * author: zhaokl
  * creationTime: 2018-03-18 18:50:19
  * version: 1.0

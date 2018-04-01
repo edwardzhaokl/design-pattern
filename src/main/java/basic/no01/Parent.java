@@ -6,7 +6,7 @@ import lombok.extern.slf4j.Slf4j;
  * project: design-pattern
  * author: zhaokl
  * createdTime: 2018-03-05 23:41:05
- * desc: parent class
+ * desc: parent clazz
  * <p>
  **/
 @Slf4j

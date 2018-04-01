@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * project: design-pattern
- * class: SRS
+ * clazz: SRS
  * author: zhaokl
  * creationTime: 2018-03-28 21:57:16
  * version: 1.0

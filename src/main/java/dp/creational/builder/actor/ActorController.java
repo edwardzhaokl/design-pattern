@@ -3,7 +3,7 @@ package dp.creational.builder.actor;
 
 /**
  * project: design-pattern
- * class: ActorController
+ * clazz: ActorController
  * author: zhaokl
  * creationTime: 2018-03-18 16:26:02
  * version: 1.0

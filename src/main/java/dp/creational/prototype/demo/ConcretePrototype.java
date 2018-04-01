@@ -5,7 +5,7 @@ import lombok.EqualsAndHashCode;
 
 /**
  * project: design-pattern
- * class: ConcretePrototype
+ * clazz: ConcretePrototype
  * author: zhaokl
  * creationTime: 2018-03-18 22:59:24
  * version: 1.0

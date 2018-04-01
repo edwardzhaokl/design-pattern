@@ -2,7 +2,7 @@ package dp.creational.prototype.demo;
 
 /**
  * project: design-pattern
- * class: Prototype
+ * clazz: Prototype
  * author: zhaokl
  * creationTime: 2018-03-18 22:58:02
  * version: 1.0

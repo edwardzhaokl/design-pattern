@@ -4,7 +4,7 @@ import lombok.Data;
 
 /**
  * project: design-pattern
- * class: Product
+ * clazz: Product
  * author: zhaokl
  * creationTime: 2018-03-18 14:21:48
  * version: 1.0

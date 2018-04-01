@@ -8,7 +8,7 @@ import java.util.Random;
 
 /**
  * project: design-pattern
- * class: LoadBalancer
+ * clazz: LoadBalancer
  * author: zhaokl
  * creationTime: 2018-03-15 23:09:38
  * version: 1.0

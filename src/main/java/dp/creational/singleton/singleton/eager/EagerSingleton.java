@@ -2,7 +2,7 @@ package dp.creational.singleton.singleton.eager;
 
 /**
  * project: design-pattern
- * class: EagerSingleton
+ * clazz: EagerSingleton
  * author: zhaokl
  * creationTime: 2018-03-16 21:04:36
  * version: 1.0

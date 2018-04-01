@@ -4,7 +4,7 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * project: design-pattern
- * class: ConcreteProductB2
+ * clazz: ConcreteProductB2
  * author: zhaokl
  * creationTime: 2018-03-14 20:32:20
  * version: 1.0

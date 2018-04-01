@@ -4,7 +4,7 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * project: design-pattern
- * class: LazySingleton
+ * clazz: LazySingleton
  * author: zhaokl
  * creationTime: 2018-03-18 00:06:58
  * version: 1.0

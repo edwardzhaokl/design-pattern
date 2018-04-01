@@ -2,7 +2,7 @@ package dp.creational.builder.actor;
 
 /**
  * project: design-pattern
- * class: ActorBuilder
+ * clazz: ActorBuilder
  * author: zhaokl
  * creationTime: 2018-03-18 16:18:28
  * version: 1.0

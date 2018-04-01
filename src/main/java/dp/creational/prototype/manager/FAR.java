@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * project: design-pattern
- * class: FAR
+ * clazz: FAR
  * author: zhaokl
  * creationTime: 2018-03-28 21:54:17
  * version: 1.0

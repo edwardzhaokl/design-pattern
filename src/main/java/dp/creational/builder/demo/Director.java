@@ -2,7 +2,7 @@ package dp.creational.builder.demo;
 
 /**
  * project: design-pattern
- * class: Director
+ * clazz: Director
  * author: zhaokl
  * creationTime: 2018-03-18 14:27:12
  * version: 1.0

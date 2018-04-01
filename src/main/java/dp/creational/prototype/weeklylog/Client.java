@@ -8,7 +8,7 @@ import java.util.Objects;
 
 /**
  * project: design-pattern
- * class: Client
+ * clazz: Client
  * author: zhaokl
  * creationTime: 2018-03-27 22:02:49
  * version: 1.0

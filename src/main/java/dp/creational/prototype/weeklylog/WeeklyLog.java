@@ -7,7 +7,7 @@ import java.util.Date;
 
 /**
  * project: design-pattern
- * class: WeeklyLog
+ * clazz: WeeklyLog
  * author: zhaokl
  * creationTime: 2018-03-27 21:58:32
  * version: 1.0

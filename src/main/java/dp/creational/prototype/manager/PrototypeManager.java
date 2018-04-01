@@ -4,7 +4,7 @@ import java.util.Hashtable;
 
 /**
  * project: design-pattern
- * class: PrototypeManager
+ * clazz: PrototypeManager
  * author: zhaokl
  * creationTime: 2018-03-28 21:20:29
  * version: 1.0
