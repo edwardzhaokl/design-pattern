@@ -30,25 +30,18 @@ public class QuickSort {
 		sort(array, p + 1, high);
 	}
 
-	// 划分
+	// 划分 升序(逆序: v<a[++i] if i == low break;)
 	public int partition(int[] a, int low, int high) {
 		int v = a[low];
 		int i = low;
 		int j = high + 1;
 		while (true) {
-			while (a[++i] < v) {
-				if (i == high)
-					break;
-			}
-			while (a[--j] > v) {
-				if (j == low)
-					break;
-			}
+			while (a[++i] < v) if (i == high) break;
+			while (a[--j] > v) if (j == low) break;
 			if (i >= j) break;
 			swap(a, i, j);
 		}
 		swap(a, low, j);
-
 		return j;
 	}
 

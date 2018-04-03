@@ -24,7 +24,7 @@ public class Client {
 
 		log.info("result={}", result);
 
-		int score = operation.search(result, 90);
+		int score = operation.search(result, 96);
 		log.info("score={}", score);
 	}
 

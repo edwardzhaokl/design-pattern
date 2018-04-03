@@ -17,12 +17,12 @@ public class BinarySearch {
 		int low = 0;
 		int high = array.length - 1;
 
-		while (low < high) {
+		while (low <= high) {
 			int middle = (low + high) / 2;
-			if (key > array[middle]) {
-				low = middle;
-			} else if (key < array[middle]) {
-				high = middle;
+			if (array[middle] < key) {
+				low = middle + 1;
+			} else if (array[middle] > key) {
+				high = middle - 1;
 			} else {
 				return middle;
 			}
