@@ -1,4 +1,4 @@
-package dp.creational.singleton.singleton.loadbalancer;
+package dp.creational.singleton.loadbalancer;
 
 import lombok.extern.slf4j.Slf4j;
 

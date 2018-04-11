@@ -1,4 +1,4 @@
-package dp.creational.singleton.singleton.demo;
+package dp.creational.singleton.demo;
 
 import lombok.extern.slf4j.Slf4j;
 
