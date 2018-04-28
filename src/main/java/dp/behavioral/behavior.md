@@ -24,13 +24,13 @@
 名称|-|重要性| 学习难度 | 使用频率
 :---:|:---:|:---:|:---:|:---:|
 职责链 | Chain of Responsibility | 3 | 3 | 2 
-命令   | Command | 4 | 3 | 4 
-解释器 | Interpreter | 1 | 4 | 1 
-迭代器 | Iterator   | 5 | 3 | 5 
-中介者 | Mediator    | 2 | 3 | 2 
-备忘录 | Memento   | 2 | 2 | 2 
-观察者 | Observer  | 5 | 3 | 5 
-状态   | State       | 3 | 3 | 3 
-策略   | Strategy     | 4 | 1 | 4 
-模板方法 | Template Method  | 3 | 2 | 3 
-访问者   | Visitor       | 1 | 4 | 1 
+命令   | Command                 | 4 | 3 | 4 
+解释器 | Interpreter             | 1 | 4 | 1 
+迭代器 | Iterator                | 5 | 3 | 5 
+中介者 | Mediator                | 2 | 3 | 2 
+备忘录 | Memento                 | 2 | 2 | 2 
+观察者 | Observer                | 5 | 3 | 5 
+状态   | State                   | 3 | 3 | 3 
+策略   | Strategy                | 4 | 1 | 4 
+模板方法 | Template Method       | 3 | 2 | 3 
+访问者   | Visitor               | 1 | 4 | 1 
